@@ -6,8 +6,15 @@ directory where you want the repository to exist. For the dataWizardry repositor
 
 Initialize all submodules and point to main branch: <code> git submodule update --init --recursive --remote </code>
 
+### Pulling Instructions
 
-<code>git pull</code>          Before editing any script, pull the latest changes from the repository.
+Before doing any work, pull using the following commands.
+
+<code>git pull</code>          Before editing any script, pull the latest changes from the root and then from each submodule. This pulls from the root.
+
+<code>git pull api</code>       This pulls from the api submodule. Make sure your path is at the root (dataWizardry) when using this.
+
+<code>git pull clean</code>     This pulls from the clean submodule. Make sure your path is at the root (dataWizardry) when using this.
 
 After saving your edits, you will push changes to the repository.
 
@@ -23,3 +30,4 @@ Other useful commands:
 
 <code>git log</code>         Displays commit history.
 
+<code>git checkout main</code>      If you have issues with a detached head, do this.
