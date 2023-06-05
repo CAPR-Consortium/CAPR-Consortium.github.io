@@ -10,11 +10,9 @@ Initialize all submodules and point to main branch: <code> git submodule update 
 
 Before doing any work, pull using the following commands.
 
-<code>git pull</code>          Before editing any script, pull the latest changes from the root and then from each submodule. This pulls from the root.
+<code>git pull</code>          Before editing any script, pull the latest changes from the root and then from each submodule by changing directory into each submodule.
 
-<code>git pull api</code>       This pulls from the api submodule. Make sure your path is at the root (dataWizardry) when using this.
-
-<code>git pull clean</code>     This pulls from the clean submodule. Make sure your path is at the root (dataWizardry) when using this.
+<code>cd clean</code> or <code>cd api</code>          From the root, you can change directory into submodules.
 
 After saving your edits, you will push changes to the repository.
 
