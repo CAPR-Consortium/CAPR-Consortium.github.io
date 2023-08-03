@@ -1,4 +1,6 @@
 
+The dataWizardry repository is where you will find cleaning scripts for CAPR: https://github.com/CAPR-Consortium/dataWizardry.
+
 To get started working with a repository, you will first need to clone it. Cloning copies a repository to your local machine.
 
 Navigate to the repository you want to clone. Click on the green button titled "code" and copy the SSH link. From the command line, you will navigate to the
