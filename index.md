@@ -44,14 +44,82 @@ Navigate to the repository you want to clone. Click on the green button titled "
 directory where you want the repository to exist. For the dataWizardry repository, run this line: <code>git clone git@github.com:CAPR-Consortium/dataWizardry.git</code>.
 
 Initialize all submodules and point to main branch: <code> git submodule update --init --recursive --remote </code>
+### Terminal Basics
+
+In the following command prompt, 
+`Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry (master)`
+
+There are multiple components:
+
+Text before the @ is the username
+
+Text after the @ is the hostname (a.k.a. your device name)
+
+MINGW64 is the shell (for RStudio running Windows interface); This will appear different for Mac Users
+
+~ symbol is the home directory of the user
+
+`~/Documents/git/dataWizardry` is the current working directory (absolute path)
+
+Some devices might just show dataWizardry (relative path)
+
+Text in ( ) will indicate whether you are in "master" or "main" branch
 
 ### Pulling Instructions
 
 Before doing any work, pull using the following commands.
 
-<code>git pull</code>          Before editing any script, pull the latest changes from the root and then from each submodule by changing directory into each submodule.
+Change directory to the parent repository (i.e., dataWizardry). Pull changes.
 
-<code>cd clean</code> or <code>cd api</code>          From the root, you can change directory into submodules.
+`Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry (master)`
+
+<code>git pull</code>
+
+Change directory to submodules (clean, api, nih). Pull changes from each folder.
+
+<code>cd clean</code>
+
+`Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry/clean (master)`
+
+<code>git pull</code>
+
+<code>cd ../api</code>
+
+`Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry/api (master)`
+
+<code>git pull</code>
+
+<code>cd ../nih</code>
+
+`Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry/nih (master)`
+
+<code>git pull</code>
+
+#### Common Errors with Pulling
+
+If you run a `git status` in a submodule (i.e., clean) before pulling from `dataWizardry/` you will encounter the following error, even if there are changes to the submodule: 
+
+```
+Username@LAPTOP-XXXXXX MINGW64 ~/Documents/git/dataWizardry/clean (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+The reason for this is that by not first pulling from dataWizardry, the repository is not yet aware of changes to the versions of the submodules. Pulling from dataWizardry first will ensure the correct output from `git status`
+
+```
+Username@LAPTOP-XXXXX MINGW64 ~/Documents/git/dataWizardry/clean (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 33 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+```
+
+### Pushing Instructions
 
 After saving your edits, you will push changes to the repository.
 
