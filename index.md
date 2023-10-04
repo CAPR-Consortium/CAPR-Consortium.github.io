@@ -35,6 +35,13 @@ If you would like to join our team, please first create a GitHub account. Please
 ## After Joining dataWizardry
 Once you have received access, please review the [README](https://github.com/CAPR-Consortium/dataWizardry/blob/master/README.md). If you are new to GitHub and Git, see the [quickstart documentation](https://docs.github.com/en/get-started/quickstart). After these steps, request an onboarding meeting from one of the repository owners.
 
+## SSH Keys
+Make sure you have uploaded your ssh keys to your GitHub accout. Using Terminal on a Mac or Git Bash or WSL terminal on PC, type <code>cat ~/.ssh/id_rsa.pub</code> to see if you have already generated SSH keys. If so, you can copy your public key and add paste it within your GitHub account, under Settings -> SSH and GPG keys. Choose a name that identifies your machine to you. For example, "personal macbook pro."
+
+If you have not previously generated keys, you will type <code>ssh-keygen -t rsa</code> in either Terminal, Git Bash, or WSL terminal. You do not need a passcode, so press Enter to continue. You will see a randomart image. You then will follow the above instructions which will authorize your machine.
+
+Do not share your private key with anyone. If your machine is lost, stolen, or otherwise compromised, send a message to Josh Kenney as soon as possible.
+
 
 ## Working with the dataWizardry repository
 
