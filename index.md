@@ -41,9 +41,16 @@ Once you have received access, please review the [README](https://github.com/CAP
 To get started working with a repository, you will first need to clone it. Cloning copies a repository to your local machine.
 
 Navigate to the repository you want to clone. Click on the green button titled "code" and copy the SSH link. From the command line, you will navigate to the
-directory where you want the repository to exist. For the dataWizardry repository, run this line: <code>git clone git@github.com:CAPR-Consortium/dataWizardry.git</code>.
+directory where you want the repository to exist. For the dataWizardry repository, run this line: <code>git clone git@github.com:CAPR-Consortium/dataWizardry.git --recurse-submodules</code>.
 
-Initialize all submodules and point to main branch: <code> git submodule update --init --recursive --remote </code>
+For all submodules, point to main branch:
+
+For example, to point to the main branch for submodule clean/:
+
+<code>cd clean</code>
+
+<code>git checkout main</code>
+
 ### Terminal Basics
 
 In the following command prompt, 
