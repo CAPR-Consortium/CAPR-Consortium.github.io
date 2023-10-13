@@ -1,5 +1,5 @@
 # What is CAPR?
-The Computarized Assessment of Psychosis Risk is multi-site study and consortium of six universities dedicated to the understanding and early idenfitication of psychosis in the general population. We are currently developing a battery of tasks, surveys, and clinical instruments that will be used to calculate psychosis risk in the community.
+The Computerized Assessment of Psychosis Risk is multi-site study and consortium of six universities dedicated to the understanding and early idenfitication of psychosis in the general population. We are currently developing a battery of tasks, surveys, and clinical instruments that will be used to calculate psychosis risk in the community.
 
 See our 2021 paper in the [Journal of Psychiatry and Brain Science](https://jpbs.hapres.com/htmls/JPBS_1407_Detail.html) for details about the project.
 
