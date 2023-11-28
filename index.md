@@ -5,13 +5,19 @@ See our 2021 paper in the [Journal of Psychiatry and Brain Science](https://jpbs
 
 ## Affiliated Universities
 - Yale University
+    - Josh Kenney: joshua.kenney@yale.edu
+    - Minerva Pappu: minerva.pappu@yale.edu
 - Northwestern University
+    - Trevor Williams: trevor.williams@northwestern.edu
 - Temple University
     - Zeeshan Huque: zeeshan.huque@temple.edu
+    - Josh Mervis: josh.mervis@gmail.com
 - University of California, Irvine
+    - Mia Villegas: mcville1@uci.edu
 - University of Georgia
     - Lauren Luther: lauren.luther@uga.edu
 - Emory University
+    - Katrina Aberizk: katrina.michelle.aberizk@emory.edu
 - University of Rochester Medical Center
     - Tanya Tran: tanya_tran@urmc.rochester.edu
 
