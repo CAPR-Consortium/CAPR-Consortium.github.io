@@ -145,7 +145,7 @@ After saving your edits, you will push changes to the repository.
 
 <code>git add *</code>         Prepares content (your local edits) staged for the next commit.
 
-<code>git commit -m "message about changes you made"</code>          You use a flag "-m" to add a message attached to your commit. Commits the staged snapshot with a message about the changes you have made so that collaborators can understand your modifications/additions to the repository.
+<code>git commit -m "message about changes you made"</code>          You use a flag "-m" to add a message attached to your commit. Commits the staged snapshot with a message about the changes you have made so that collaborators can understand your modifications/additions to the repository (try to be descriptive).
 
 <code>git push</code>          Uploads your local changes.
 
